@@ -100,7 +100,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <SearchBar onSearch={handleSearch} />
+       <SearchBar onSearch={handleSearch} />
       <WeatherDisplay city={city} />
     </div>
   );
