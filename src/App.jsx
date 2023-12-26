@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import "./WeatherApp.css";
+import "./App.css";
 
 const SearchBar = ({ onSearch }) => {
   const [city, setCity] = useState("");
@@ -101,3 +101,12 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
+
+
+
+// 2cd7eb0ec874489ba7110428232509
